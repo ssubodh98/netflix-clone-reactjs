@@ -1,7 +1,10 @@
+# Netflix-Clone
+This is the core code from scratch to clone the landing page of Netflix using **ReactJS**
+
 ![Preview](https://raw.githubusercontent.com/ssubodh98/netflix-clone-reactjs/master/netflix-preview.png)
 
 # Run
-[url](url)
+[https://netflix-clone-bysubodh.netlify.app/](https://netflix-clone-bysubodh.netlify.app/)
 
 ## Start project
 
@@ -29,3 +32,5 @@ To use themoviedb.org API, you must register and obtain an access key, which is 
 ## License
 
 This project is under the MIT license.
+
+## All the best! 🥇
