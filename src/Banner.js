@@ -13,7 +13,7 @@ function Banner({ fetch }) {
     );
   }, [fetch]);
 
-  console.log(movie);
+  // console.log(movie);
 
   const firstyear = new Date(movie?.release_date);
 

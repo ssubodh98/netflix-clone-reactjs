@@ -16,7 +16,7 @@ function Row({ title, fetch }) {
 
   const movieRowRef = useRef();
   const scrollMovies = (direction) => {
-    console.log("scrollMovies button clicked")
+    // console.log("scrollMovies button clicked")
     const scrollAmount = 300; // Adjust as needed
     const movieRow = movieRowRef.current;
 

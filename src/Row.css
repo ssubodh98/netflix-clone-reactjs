@@ -72,7 +72,7 @@
       top: 0;
       bottom: 0;
       right: 0;
-      transition: outline-offset .2s ease-in-out;
+      transition: transform 0.2s ease-in-out;
       background: none;
       border: none;
       margin: 45px 0;
@@ -87,7 +87,7 @@
       top: 0;
       bottom: 0;
       left: 0;
-      transition: outline-offset .2s ease-in-out;
+      transition: transform 0.2s ease-in-out;
       background: none;
       border: none;
       margin: 45px 0;

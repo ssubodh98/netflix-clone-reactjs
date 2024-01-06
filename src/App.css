@@ -1,3 +1,19 @@
 .app{
 user-select: none;
 }
+
+.loaderDiv{
+    height: 100vh;
+    /* width: 100vh; */
+    /* opacity: 1; */
+    display: block;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.NotVisible{
+    display: none;
+}
