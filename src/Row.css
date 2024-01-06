@@ -17,8 +17,11 @@
     margin-top: -4rem;
     padding: 2rem 0;
     padding-left: 1rem;
+    /* z-index: 100; */
+  }
+  #Action\ Movies{
     z-index: 100;
-}
+  }
 
   .row h3{
     font-size: 23px;
@@ -40,11 +43,18 @@
     cursor: pointer;
     transition: .4s;
     border-radius: 2PX;
-    max-height: 300px;
+    max-height: 250px;
+
+    /* aspect-ratio: 1/1; */
+    object-fit: cover;
 }
 
 .list img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
+   
+    /* max-height: 300px; */
+    
+    z-index: 9999;
 }
 
 
@@ -55,8 +65,63 @@
   }
 }
 
+  .scroll-button.next{
+    z-index: 9999;
+    position: absolute;
+      display: flex;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      transition: outline-offset .2s ease-in-out;
+      background: none;
+      border: none;
+      margin: 45px 0;
+      color: white;
+      align-items: center;
+      opacity: 0;
+  }
+  .scroll-button.prev{
+    z-index: 9999;
+    position: absolute;
+      display: flex;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      transition: outline-offset .2s ease-in-out;
+      background: none;
+      border: none;
+      margin: 45px 0;
+      color: white;
+      align-items: center;
+      opacity: 0;
+  }
+  .list:hover .next, .list:hover .prev{
+    opacity: 1;
+  }
 
+  .ChevronRightIcon{
+    transform: scale(2.0);
+  }
+  .next:hover{
+    background: hsl(0deg 0% 8% / 50%);
+  }
+  .next:hover .ChevronRightIcon {
+    transform: scale(3);
+    transition: transform 0.2s ease-in-out;
+  }
 
+  .ChevronLeftIcon{
+    transform: scale(2.0);
+  }
+  .prev:hover{
+    background: hsl(0deg 0% 8% / 50%);
+  }
+  .prev:hover .ChevronLeftIcon {
+    transform: scale(3);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  
 
 
   .button{
